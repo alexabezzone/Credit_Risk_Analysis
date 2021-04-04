@@ -60,3 +60,5 @@ The purpose of the current analysis is to analyze credit card risk for the compa
   - High Risk: .93
   - Low Risk: .90
 
+## Summary
+Out of all of the oversampling analysis, the test that derived the best balanced accuracy score was the EasyEnsembleClassifier with .92. The test with the highest precision for identifying high risk credit was the RandomOverSample, SMOTE Oversampling, UnderSampling, and the SMOTEEN all with a score of .01. The test with the lowest risk precision for identifying credit was all of the tests above except for the EasyEnsembleClassifier. The test that identified the best high risk credit recall were the RandomOverSample and the SMOTEEN with .71. The test that identified the lowest credit risk recall was the EastEnsembleClassifier which was .90. 
